@@ -1,0 +1,4 @@
+1) To transcribe longer audio using Whisper API, usage of GPU is faster than using CPU. CPU actually takes much longer time.
+2) Availability of good open-source LLMs as APIs? Some hugging face models require special requests to get access.
+3) Falcon 7B is not ideal as it repeats points in output despite basic explicit prompts to not repeat. Will try prompt engineering techniques.
+4) Usage of OLLAMA.
