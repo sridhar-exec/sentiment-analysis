@@ -1,0 +1,53 @@
+# Make Fast API endpoint up and running
+
+# to up the ubuntu EC2 server by SSH
+ssh -i llama-key.pem ubuntu@<public-ip>
+
+# to point to the directory where the Fast API endpoint code exists
+cd llama.cpp
+
+# activates a Python virtual environment called llama-env that lives inside your home directory (~)
+source ~/llama-env/bin/activate
+
+# to serve the fast API
+uvicorn app2:app --host 0.0.0.0 --port 5000 --reload
+
+
+# To test Fast API from local
+curl -X POST http://<public-ip>/analyze \
+-H "Content-Type: application/json" \
+-d '{"prompt": "Hello, who are you?"}'
+
+
+# General Instructions:
+llama-server instance is the EC2 -> t3.xlarge CPU instance with 4 vCPUs, 50GB storage volume. \
+A new security rule was created to host the server on custom TCP on 0.0.0.0/5000
+
+The llama.cpp directory contains the gguf model hosted and also the app2.py which contains the fast API logic.
+The app2.py file was created using -> nano app2.py command.
+This file points to the gguf model hosted in the same directory.
+
+The llama-env directory contains the bin/activate folder that activates a Python virtual environment called llama-env that lives inside your home directory
+The llama-env also contains these files.
+Activate.ps1  activate  activate.csh  activate.fish  f2py  fastapi  flask  numpy-config  pip  pip3  pip3.12  python  python3  python3.12  uvicorn
+
+
+# Sample code for setting up of llama-env and llama.cpp:
+
+llama-env:
+
+python3 -m venv ~/llama-env
+source ~/llama-env/bin/activate
+pip install fastapi uvicorn flask
+
+llama.cpp:
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+make
+nano app2.py
+
+wget https://huggingface.co/Name/Repo/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+or
+huggingface-cli login
+huggingface-cli download <model-repo> mistral-7b-instruct-v0.2.Q4_K_M.gguf
+
