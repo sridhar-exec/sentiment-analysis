@@ -1,0 +1,115 @@
+TYPE: DIALOGUE
+Customer says: Hi, I need help with my internet connection.
+Rep says: Of course! Are you facing any specific issues?
+Customer says: The connection drops frequently.
+Rep says: I'm sorry to hear that. When did this start happening?
+Customer says: It's been happening for about a week now.
+Rep says: Let me run a quick diagnostic. Could you confirm your address?
+Customer says: 123 Main Street, Springfield.
+Rep says: Thanks. Running a test now... It seems there’s a minor outage in your area.
+Customer says: Oh, that explains it. When will it be fixed?
+Rep says: Our technicians are working on it and expect to resolve it within 24 hours.
+Customer says: Great, thanks for your help!
+Rep says: You're welcome. Have a good day!
+
+---
+TYPE: DIALOGUE
+Customer says: Hello, I received a wrong item in my order.
+Rep says: I'm sorry about that! Can you tell me what you ordered versus what you received?
+Customer says: I ordered a blue backpack but received a green one.
+Rep says: Got it. Let me check your order details quickly.
+Customer says: Sure, take your time.
+Rep says: It looks like the warehouse made an error. I'll initiate a replacement.
+Customer says: Thank you. Do I need to return the wrong item?
+Rep says: No, you can keep it or donate it if you wish.
+Customer says: That’s very generous!
+Rep says: We want to make it right. Expect the correct item in 2-3 business days.
+Customer says: Awesome, thanks again!
+Rep says: Anytime! We appreciate your patience.
+
+---
+TYPE: DIALOGUE
+Customer says: Hi, I’d like to cancel my subscription.
+Rep says: I’m sorry to hear that! May I ask why you’re leaving?
+Customer says: I found an alternative service that better suits my needs.
+Rep says: I see. Can I offer you a discount to stay?
+Customer says: No thanks, I’ve already made up my mind.
+Rep says: Understood. I’ll process the cancellation now.
+Customer says: Will I receive a confirmation email?
+Rep says: Yes, within the next few minutes.
+Customer says: Will I be billed again?
+Rep says: No, your billing ends today.
+Customer says: Perfect. Thanks for your help.
+Rep says: My pleasure. Have a great day!
+
+---
+TYPE: DIALOGUE
+Customer says: My package says delivered but I didn’t receive it.
+Rep says: I’m really sorry to hear that. Let me check the tracking information.
+Customer says: Thanks. I waited the whole day.
+Rep says: It shows as delivered to your front porch at 2 PM. Could you check again?
+Customer says: Yes, but there’s nothing outside.
+Rep says: Maybe a neighbor picked it up for safety. Can you check with them?
+Customer says: I'll ask. Hold on.
+Rep says: Sure, take your time.
+Customer says: My neighbor had it. Thanks for the tip!
+Rep says: I’m glad it’s found! Anything else I can assist you with?
+Customer says: No, that’s all. Have a good one!
+Rep says: You too!
+
+---
+TYPE: DIALOGUE
+Customer says: Hi, I’m interested in upgrading my phone plan.
+Rep says: Great! Are you looking for more data, talk time, or something else?
+Customer says: I want unlimited data mainly.
+Rep says: We have a few plans for that. Do you stream a lot of videos?
+Customer says: Yes, I use it heavily for work and personal use.
+Rep says: Our premium unlimited plan would suit you best.
+Customer says: How much does it cost per month?
+Rep says: It's $80 with taxes included.
+Customer says: Are there any additional perks?
+Rep says: Yes, free Netflix subscription and international roaming.
+Customer says: That sounds good. Sign me up!
+Rep says: I’ll process that right away.
+
+---
+TYPE: DIALOGUE
+Customer says: Hello, my device won't turn on.
+Rep says: That’s frustrating! Let’s try troubleshooting it together.
+Customer says: Okay, I’m ready.
+Rep says: Hold the power button for 20 seconds.
+Customer says: Nothing is happening.
+Rep says: Try plugging it into a charger and then hold the button again.
+Customer says: Now the screen blinked once!
+Rep says: Good sign! Let’s leave it on charge for 15 minutes.
+Customer says: Alright. Should I keep trying after that?
+Rep says: Yes. If it doesn't boot, we may need a repair ticket.
+Customer says: Okay, thank you for helping!
+Rep says: Anytime! Fingers crossed it works.
+
+---
+TYPE: DIALOGUE
+Customer says: Can you help me reset my password?
+Rep says: Absolutely! I’ll guide you through it.
+Customer says: Thanks. I forgot it completely.
+Rep says: No worries. Go to the login page and click 'Forgot Password'.
+Customer says: Done that.
+Rep says: Now check your email for a reset link.
+Customer says: Got it.
+Rep says: Click on the link and set a new password.
+Customer says: Password updated!
+Rep says: Perfect! Anything else you need?
+Customer says: No, that’s all.
+Rep says: Glad I could assist!
+
+---
+TYPE: MONOLOGUE
+I recently subscribed to your premium membership service. Initially, everything worked great, but over time, I noticed that the download speeds were inconsistent. I tried restarting my router, changing devices, but the issue persisted. I even contacted customer support a few times. While they were polite, the resolution was temporary at best. I’m hoping that you can look into this matter more deeply and ensure that the premium service lives up to its expectations because I really enjoy the content otherwise.
+
+---
+TYPE: MONOLOGUE
+Today, I want to share my experience about ordering online during holiday sales. I placed three different orders within the same day. Surprisingly, two of them arrived early, while one got delayed significantly. What impressed me, however, was the proactive communication from your support team, constantly updating me via text messages and emails. It made me feel valued as a customer, despite the delay. Keep up the great work in customer service!
+
+---
+TYPE: MONOLOGUE
+As a long-time user of your fitness app, I thought it was time to provide some feedback. The range of workouts is excellent, and the instructions are clear. However, the recent update made the app slightly slower to load workouts. I think optimizing the loading times could greatly enhance the user experience. Overall, though, I’m very satisfied and have already recommended the app to several of my friends and family members.

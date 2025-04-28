@@ -8,3 +8,10 @@ scikit-learn
 vaderSentiment
 bitsandbytes
 accelerate
+streamlit
+boto3
+requests
+python-dotenv
+watchdog
+gTTS
+tqdm
